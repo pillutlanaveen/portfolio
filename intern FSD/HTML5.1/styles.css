@@ -1,0 +1,64 @@
+*{
+padding:0;
+margin:0 ;
+box-sizing:border-box;
+border: 200px;
+}
+
+.body{
+    background-color: rgb(80, 30, 30);
+}
+
+.container{
+    width: 300px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.loader1{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pyramid{
+    height: 40px;
+    width: 32px;
+    border-radius: 50px;
+    background-color: aqua;
+    margin: 30px;
+    opacity: 0.4;
+}
+
+.pyramid:nth-child(1){
+    animation: animateloader1 1.25 infinite;
+}
+.pyramid:nth-child(2){
+    animation: animateloader1 1.35 infinite;
+}
+.pyramid:nth-child(3){
+    animation: animateloader1 1.45 infinite;
+}
+.pyramid:nth-child(4){
+    animation: animateloader1 1.55 infinite;
+}
+.pyramid:nth-child(5){
+    animation: animateloader1 1.65 infinite;
+}
+.pyramid:nth-child(6){
+    animation: animateloader1 1.75 infinite;
+}
+.pyramid:nth-child(7){
+    animation: animateloader1 1.85 infinite;
+}
+.pyramid:nth-child(8){
+    animation: animateloader1 1.95 infinite;
+}
+.pyramid:nth-child(9){
+    animation: animateloader1 1.105 infinite;
+}
